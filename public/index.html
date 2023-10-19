@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odin Admin Dashboard</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="../src/styles.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Roboto+Mono"
@@ -18,7 +18,7 @@
     </style>
   </head>
   <body>
-    <div class="grid grid-rows-4">
+    <div class="grid grid-cols-4">
       <!-- Header -->
       <div class="bg-green-400 drop-shadow-lg">
         <!-- upper -->
@@ -88,7 +88,7 @@
       </div>
 
       <!-- Main -->
-      <div class="main">
+      <div class="main col-start-2 col-span-full row-start-2 row-span-3">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -121,12 +121,12 @@
         </svg>
       </div>
 
-      <div class="bg-sky-600">
+      <div class="bg-sky-500 col-start-1 col-span-1 row-span-full text-white">
         <div>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
-            class="w-10"
+            class="w-10 fill-white"
           >
             <title>view-dashboard-variant</title>
             <path

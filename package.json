@@ -4,7 +4,7 @@
   "description": "Creation of a admin dashboard utilizing html and css.",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss build src/input.css -o public/styles.css"
+    "build-css": "tailwindcss build src/input.css -o src/styles.css"
   },
   "author": "",
   "license": "ISC",
