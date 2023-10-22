@@ -55,12 +55,37 @@
   grid-column: 2 / -1;
 }
 
-.dashboard {
+.card {
+  border-left: 8px solid rgb(238, 205, 59);
+  display: grid;
+  grid-template-rows: 3fr 1fr;
+  grid-template-columns: 2fr 1fr;
+}
+.card-content {
+  grid-area: 1 / 1 / 2 / -1;
   padding: 15px;
-  grid-row: 1 / 3;
+}
+.svg-grid {
+  grid-area: 2 / 2 / -1/ -1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .dashboard {
+  padding: 15px;
+  grid-row: 1 / 3;
   display: grid;
-  grid-template-rows: 1fr 3fr 3fr;
+  grid-template-rows: 1fr 5fr 5fr;
+}
+
+.svg-text {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.svg-text svg {
+  justify-self: center;
+  align-self: center;
+}
+.svg-text h1 {
+  align-self: center;
 }
