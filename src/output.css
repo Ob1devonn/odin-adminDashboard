@@ -534,6 +534,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.m-4 {
+  margin: 1rem;
+}
+
 .mr-2 {
   margin-right: 0.5rem;
 }
@@ -598,6 +602,14 @@ video {
   width: 24rem;
 }
 
+.w-60 {
+  width: 15rem;
+}
+
+.w-72 {
+  width: 18rem;
+}
+
 .grid-cols-6 {
   grid-template-columns: repeat(6, minmax(0, 1fr));
 }
@@ -628,6 +640,10 @@ video {
 
 .gap-10 {
   gap: 2.5rem;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .rounded-full {
@@ -689,6 +705,10 @@ video {
 
 .p-2 {
   padding: 0.5rem;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .py-2 {

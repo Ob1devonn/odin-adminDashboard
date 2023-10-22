@@ -53,6 +53,16 @@
 .main {
   padding: 15px;
   grid-column: 2 / -1;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.main-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.aside {
+  justify-self: center;
 }
 
 .card {
